@@ -111,6 +111,9 @@
     dedicatedServer.openFirewall = true;
   };
 
+  # Enable nvidia drivers
+  hardware.nvidia.package = config.boot.kernelPackages.nvidiaPackages.stable;
+
   # Enable automatic login for the user.
   services.xserver.displayManager.autoLogin.enable = true;
   services.xserver.displayManager.autoLogin.user = "ironpencil";
