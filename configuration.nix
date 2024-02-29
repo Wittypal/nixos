@@ -102,7 +102,7 @@
   };
 
   #attempt to fix battle net
-  services.samba.nsswins = true;
+  services.samba.enable = true;
 
 
   programs.steam = {
@@ -127,12 +127,12 @@
     git
     libsForQt5.plasma-browser-integration
     libnotify
+    cifs-utils
     (lutris.override {
       extraLibraries =  pkgs: [
         # List library dependencies here
       ];
     })
-    cifs-utils
   #  wget
   ];
 
