@@ -44,6 +44,7 @@
 
   # Enable the X11 windowing system.
   services.xserver.enable = true;
+  services.xserver.videoDrivers = ["nvidiaBeta"];
 
   # enable ssh agent
   programs.ssh.startAgent = true;
