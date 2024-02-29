@@ -116,6 +116,7 @@
     rustup
     git
     libsForQt5.plasma-browser-integration
+    libnotify
   #  wget
   ];
 
