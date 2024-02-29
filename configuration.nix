@@ -92,6 +92,7 @@
       thunderbird
       discord
       winetricks
+      wineWowPackages.stable
     ];
   };
 
