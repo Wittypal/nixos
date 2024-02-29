@@ -128,6 +128,8 @@
     libsForQt5.plasma-browser-integration
     libnotify
     cifs-utils
+    glxinfo
+    vulkan-tools
     (lutris.override {
       extraLibraries =  pkgs: [
         # List library dependencies here
