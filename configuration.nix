@@ -127,6 +127,11 @@
     git
     libsForQt5.plasma-browser-integration
     libnotify
+    (lutris.override {
+      extraLibraries =  pkgs: [
+        # List library dependencies here
+      ];
+    })
   #  wget
   ];
 
