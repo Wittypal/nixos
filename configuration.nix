@@ -93,6 +93,8 @@
       discord
       winetricks
       wineWowPackages.stable
+      musescore
+      tuxguitar
     ];
   };
 
