@@ -132,6 +132,7 @@
         # List library dependencies here
       ];
     })
+    cifs-utils
   #  wget
   ];
 
