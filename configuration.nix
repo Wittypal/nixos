@@ -45,6 +45,9 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
+  # enable ssh agent
+  programs.ssh.startAgent = true;
+
   # Enable the KDE Plasma Desktop Environment.
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.plasma5.enable = true;
@@ -81,7 +84,6 @@
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
-
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.ironpencil = {
     isNormalUser = true;
@@ -98,6 +100,10 @@
       tuxguitar
     ];
   };
+
+  #attempt to fix battle net
+  services.samba.nsswins = true;
+
 
   programs.steam = {
     enable = true;
@@ -121,7 +127,6 @@
     git
     libsForQt5.plasma-browser-integration
     libnotify
-    glxinfo
   #  wget
   ];
 
