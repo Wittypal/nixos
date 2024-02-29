@@ -91,10 +91,6 @@
       kate
       thunderbird
       discord
-      (wineWowPackages.full.override {
-        wineRelease = "staging";
-        mingwSupport = true;
-      })
       winetricks
     ];
   };
