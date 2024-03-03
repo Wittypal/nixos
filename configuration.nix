@@ -130,6 +130,7 @@
     libnotify
     cifs-utils
     glxinfo
+    busybox
     vulkan-tools
     (lutris.override {
       extraLibraries =  pkgs: [
