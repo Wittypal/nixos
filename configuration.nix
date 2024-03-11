@@ -92,6 +92,7 @@
       firefox
       kate
       signal-desktop
+      mathpix-snipping-tool
       thunderbird
       discord
       winetricks
