@@ -91,6 +91,7 @@
     packages = with pkgs; [
       firefox
       kate
+      signal-desktop
       thunderbird
       discord
       winetricks
