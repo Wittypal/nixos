@@ -101,6 +101,7 @@
       tuxguitar
       minecraft
       openjdk17
+      nix-index
     ];
   };
 
