@@ -99,6 +99,7 @@
       wineWowPackages.stable
       musescore
       tuxguitar
+      minecraft
     ];
   };
 
