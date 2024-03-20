@@ -100,6 +100,7 @@
       musescore
       tuxguitar
       minecraft
+      openjdk17
     ];
   };
 
