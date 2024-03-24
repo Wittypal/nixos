@@ -99,7 +99,6 @@
       wineWowPackages.stable
       musescore
       tuxguitar
-      minecraft
       openjdk17
       vlc
       nix-index
