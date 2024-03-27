@@ -101,6 +101,7 @@
       tuxguitar
       openjdk17
       vlc
+      zoom-us
       nix-index
     ];
   };
