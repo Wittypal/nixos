@@ -103,6 +103,7 @@
       vlc
       zoom-us
       nix-index
+      helix
     ];
   };
 
