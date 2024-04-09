@@ -104,6 +104,7 @@
       zoom-us
       nix-index
       helix
+      luppp
     ];
   };
 
