@@ -105,7 +105,7 @@
       nix-index
       helix
       luppp
-      temurin-jre-bin-21
+      atlauncher
     ];
   };
 
