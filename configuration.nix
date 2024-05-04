@@ -106,6 +106,16 @@
       helix
       luppp
       atlauncher
+      obs-studio
+      obs-studio-plugins.waveform
+      obs-studio-plugins.obs-vkcapture
+      obs-studio-plugins.obs-gstreamer
+      obs-studio-plugins.input-overlay
+      obs-studio-plugins.obs-mute-filter
+      obs-studio-plugins.obs-text-pthread
+      obs-studio-plugins.obs-shaderfilter
+
+
     ];
   };
 
