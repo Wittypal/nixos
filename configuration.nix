@@ -89,6 +89,7 @@
     description = "Christian Wittpahl";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      chromium
       firefox
       kate
       signal-desktop
