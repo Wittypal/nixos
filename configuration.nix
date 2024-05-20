@@ -42,6 +42,14 @@
     LC_TIME = "de_DE.UTF-8";
   };
 
+  fonts = {
+    packages = with pkgs; [
+      noto-fonts
+      noto-fonts-emoji
+      noto-fonts-cjk
+    ];
+  };
+
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
