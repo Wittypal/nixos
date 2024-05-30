@@ -113,6 +113,7 @@
       zoom-us
       nix-index
       helix
+      neovim
       luppp
       atlauncher
       obs-studio
