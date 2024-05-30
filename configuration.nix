@@ -124,7 +124,10 @@
       obs-studio-plugins.obs-mute-filter
       obs-studio-plugins.obs-text-pthread
       obs-studio-plugins.obs-shaderfilter
-
+      ripgrep
+      gnumake
+      gcc
+      
 
     ];
   };
