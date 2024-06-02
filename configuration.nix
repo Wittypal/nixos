@@ -165,7 +165,7 @@
     glxinfo
     busybox
     vulkan-tools
-    vesktop
+    sudo testdisk
     dmidecode
     (lutris.override {
       extraLibraries =  pkgs: [
