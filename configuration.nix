@@ -127,7 +127,7 @@
       ripgrep
       gnumake
       gcc
-      
+      vscode.fhs      
 
     ];
   };
