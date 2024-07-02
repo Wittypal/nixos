@@ -18,6 +18,7 @@ echo "NixOS Rebuilding..."
 
 # Rebuild, output simplified errors, log trackebacks
 sudo cp configuration.nix /etc/nixos/configuration.nix
+sudo nix-channel --update
 sudo nixos-rebuild switch &>nixos-switch.log || (cat nixos-switch.log | grep --color error && false)
 
 # Get current generation metadata
