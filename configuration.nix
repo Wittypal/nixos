@@ -4,6 +4,8 @@
 
 { config, pkgs, ... }:
 
+
+
 {
   imports =
     [ # Include the results of the hardware scan.
@@ -100,7 +102,6 @@
       chromium
       firefox
       kate
-      signal-desktop
       mathpix-snipping-tool
       thunderbird
       discord
@@ -149,7 +150,15 @@
   services.xserver.displayManager.autoLogin.user = "ironpencil";
 
   # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
+  # Allow unstable packages.
+  nixpkgs.config = {
+  allowUnfree = true;
+  packageOverrides = pkgs: {
+    unstable = import <unstable> {
+      config = config.nixpkgs.config;
+    };
+  };
+  };
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -167,7 +176,8 @@
     vulkan-tools
     sudo testdisk
     dmidecode
-    (lutris.override {
+    unstable.signal-desktop
+     (lutris.override {
       extraLibraries =  pkgs: [
         # List library dependencies here
       ];
