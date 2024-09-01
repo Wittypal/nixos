@@ -10,7 +10,10 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      <musnix>
     ];
+
+  musnix.enable = true;
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
