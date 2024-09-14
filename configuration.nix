@@ -180,6 +180,9 @@
     sudo testdisk
     dmidecode
     unstable.signal-desktop
+    reaper
+    ardour
+    yabridge
      (lutris.override {
       extraLibraries =  pkgs: [
         # List library dependencies here
