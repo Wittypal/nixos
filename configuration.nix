@@ -180,6 +180,7 @@
     sudo testdisk
     dmidecode
     unstable.signal-desktop
+    qpwgraph
     reaper
     ardour
     yabridge
