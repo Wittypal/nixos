@@ -132,7 +132,6 @@
       gnumake
       gcc
       vscode.fhs      
-
     ];
   };
 
@@ -144,6 +143,11 @@
     enable = true;
     remotePlay.openFirewall = true;
     dedicatedServer.openFirewall = true;
+  };
+
+  programs.streamdeck-ui = {
+    enable = true;
+    autoStart = true;
   };
 
   # Enable nvidia drivers
