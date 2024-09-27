@@ -132,6 +132,10 @@
       gnumake
       gcc
       vscode.fhs      
+      cardinal
+      surge-XT
+      surge
+      
     ];
   };
 
