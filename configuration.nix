@@ -100,7 +100,7 @@
   users.users.ironpencil = {
     isNormalUser = true;
     description = "Christian Wittpahl";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "audio"];
     packages = with pkgs; [
       chromium
       firefox
