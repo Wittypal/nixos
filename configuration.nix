@@ -103,6 +103,7 @@
     description = "Christian Wittpahl";
     extraGroups = [ "networkmanager" "wheel" "audio"];
     packages = with pkgs; [
+      typst
       chromium
       firefox
       kate
