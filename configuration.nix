@@ -15,7 +15,8 @@
 
   musnix.enable = true;
   musnix.rtcqs.enable = true;
-  
+  musnix.kernel.realtime = true;
+   
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
