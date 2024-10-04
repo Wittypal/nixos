@@ -60,8 +60,14 @@
   services.xserver.enable = true;
 
   # for lutris
-  systemd.extraConfig = "DefaultLimitNOFILE=524288";
+  security.pam.loginLimits = [
+    { domain = "@audio"; item = "memlock"; type = "-"; value = "unlimited"; }
+    { domain = "@audio"; item = "rtprio"; type = "-"; value = "99"; }
+    { domain = "@audio"; item = "nofile"; type = "soft"; value = "524288"; }
+    { domain = "@audio"; item = "nofile"; type = "hard"; value = "524288"; }
+  ];
 
+    
   # enable ssh agent
   programs.ssh.startAgent = true;
 
