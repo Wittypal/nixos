@@ -59,6 +59,9 @@
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
+  # for lutris
+  systemd.extraConfig = "DefaultLimitNOFILE=524288";
+
   # enable ssh agent
   programs.ssh.startAgent = true;
 
