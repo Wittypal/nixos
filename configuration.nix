@@ -118,6 +118,7 @@
       firefox
       kate
       mathpix-snipping-tool
+      calibre
       thunderbird
       discord
       winetricks
