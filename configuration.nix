@@ -196,9 +196,11 @@
     libnotify
     cifs-utils
     glxinfo
+    joycond
     busybox
     vulkan-tools
-    sudo testdisk
+    sudo 
+    testdisk
     dmidecode
     unstable.signal-desktop
     qpwgraph
