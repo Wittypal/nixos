@@ -13,6 +13,9 @@
       <musnix>
     ];
 
+	
+  programs.noisetorch.enable = true;
+
   musnix.enable = true;
   musnix.rtcqs.enable = true;
   musnix.kernel.realtime = true;
@@ -206,7 +209,6 @@
     unstable.signal-desktop
     qpwgraph
     reaper
-    noisetorch
     ardour
     yabridge
      (lutris.override {
