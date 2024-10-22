@@ -133,6 +133,7 @@
       neovim
       luppp
       atlauncher
+      noisetorch
       obs-studio
       obs-studio-plugins.waveform
       obs-studio-plugins.obs-vkcapture
