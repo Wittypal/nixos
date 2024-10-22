@@ -133,7 +133,7 @@
       neovim
       luppp
       atlauncher
-      noisetorch
+
       obs-studio
       obs-studio-plugins.waveform
       obs-studio-plugins.obs-vkcapture
@@ -206,6 +206,7 @@
     unstable.signal-desktop
     qpwgraph
     reaper
+    noisetorch
     ardour
     yabridge
      (lutris.override {
