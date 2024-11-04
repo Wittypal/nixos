@@ -130,6 +130,7 @@
       tuxguitar
       openjdk17
       vlc
+      kmag
       zoom-us
       nix-index
       helix
