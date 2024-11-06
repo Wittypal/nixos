@@ -137,7 +137,7 @@
       neovim
       luppp
       atlauncher
-
+      linuxHeaders
       obs-studio
       obs-studio-plugins.waveform
       obs-studio-plugins.obs-vkcapture
