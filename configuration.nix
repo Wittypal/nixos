@@ -5,7 +5,9 @@
 { config, pkgs, ... }:
 
 
-
+let
+  unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
+in
 {
   imports =
     [ # Include the results of the hardware scan.
@@ -131,6 +133,7 @@
       openjdk17
       vlc
       kmag
+      unstable.lumafly
       zoom-us
       nix-index
       helix
