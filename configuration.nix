@@ -9,6 +9,13 @@ let
   unstable = import <nixos-unstable> { config = { allowUnfree = true; }; };
 in
 {
+
+  services.zerotierone = {
+    enable = true;
+    joinNetworks = [
+      "c7c8172af12fea41"
+    ];
+  };
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
