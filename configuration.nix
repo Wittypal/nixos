@@ -144,7 +144,7 @@ in
       openjdk17
       vlc
       kmag
-      unstable.lumafly
+      #unstable.lumafly
       zoom-us
       nix-index
       helix
@@ -167,7 +167,17 @@ in
       cardinal
       surge-XT
       surge
-      
+
+# for matplotlib
+      dotnet-runtime_8
+      glib
+      zlib
+      libGL
+      fontconfig
+      xorg.libX11
+      libxkbcommon
+      freetype
+      dbus      
     ];
   };
 
