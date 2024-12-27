@@ -179,6 +179,8 @@ in
       libxkbcommon
       freetype
       dbus      
+
+      unigine-tropics
     ];
   };
 
