@@ -27,7 +27,7 @@ in
 
   musnix.enable = true;
   musnix.rtcqs.enable = true;
-  musnix.kernel.realtime = true;
+  musnix.kernel.realtime = false;
    
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
