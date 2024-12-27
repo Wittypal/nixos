@@ -180,7 +180,6 @@ in
       freetype
       dbus      
 
-      unigine-tropics
     ];
   };
 
@@ -238,6 +237,7 @@ in
     qpwgraph
     reaper
     ardour
+    unstable.furmark
     yabridge
      (lutris.override {
       extraLibraries =  pkgs: [
