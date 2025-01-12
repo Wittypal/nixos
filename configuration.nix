@@ -140,6 +140,7 @@ in
       discord
       winetricks
       wineWowPackages.stable
+      linuxsampler
       musescore
       tuxguitar
       openjdk17
