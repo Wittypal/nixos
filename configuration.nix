@@ -141,6 +141,7 @@ in
       winetricks
       wineWowPackages.stable
       linuxsampler
+      fluidsynth
       musescore
       tuxguitar
       openjdk17
