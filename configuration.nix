@@ -141,6 +141,7 @@ in
       winetricks
       wineWowPackages.stable
       linuxsampler
+      qsynth
       fluidsynth
       musescore
       tuxguitar
