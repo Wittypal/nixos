@@ -132,7 +132,7 @@ in
     packages = with pkgs; [
       typst
       chromium
-      firefox
+      unstable.firefox
       librewolf
       kate
       mathpix-snipping-tool
