@@ -133,6 +133,7 @@ in
       typst
       chromium
       firefox
+      librewolf
       kate
       mathpix-snipping-tool
       calibre
