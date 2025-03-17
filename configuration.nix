@@ -226,7 +226,6 @@ in
     rustup
     git
     libsForQt5.plasma-browser-integration
-    libsForQt5.kio-gdrive
     libnotify
     cifs-utils
     glxinfo
