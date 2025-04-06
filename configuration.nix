@@ -224,6 +224,7 @@ in
   environment.systemPackages = with pkgs; [
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     gparted
+    unstable.uv
     rustup
     git
     libsForQt5.plasma-browser-integration
